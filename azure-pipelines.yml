@@ -19,13 +19,20 @@ steps:
 # - script: echo Setup for XamariniOS Build
 #   displayName: 'Run a one-line script'
 
+  - task: NuGetToolInstaller@1
+    displayName: 'Install NuGet 4.5'
+    inputs:
+      versionSpec: '4.5'
+
   - task: NuGetCommand@2
+    displayName: 'Restore NuGet - iOS proj'
     inputs:
       command: 'restore'
       restoreSolution: '**/*ios.csproj'
       feedsToUse: 'select'
 
   - task: XamariniOS@2
+    displayName: 'Build iOS proj'
     inputs:
       solutionFile: '**/*ios.csproj'
       configuration: 'Debug'
