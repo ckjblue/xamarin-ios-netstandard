@@ -37,11 +37,10 @@ steps:
   - task: XamariniOS@2
     displayName: 'Build iOS proj'
     inputs:
-      solutionFile: '**/*.sln'
+      solutionFile: '**/*ios.csproj'
       configuration: 'Debug'
       packageApp: false
       buildForSimulator: true
-      runNugetRestore: true
 
 
 # - script: |
