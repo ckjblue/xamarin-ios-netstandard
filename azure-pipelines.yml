@@ -19,6 +19,12 @@ steps:
 # - script: echo Setup for XamariniOS Build
 #   displayName: 'Run a one-line script'
 
+  - task: NuGetCommand@2
+    inputs:
+      command: 'restore'
+      restoreSolution: '**/*ios.csproj'
+      feedsToUse: 'select'
+
   - task: XamariniOS@2
     inputs:
       solutionFile: '**/*ios.csproj'
