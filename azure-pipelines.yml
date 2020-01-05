@@ -41,7 +41,7 @@ steps:
       configuration: 'Debug'
       packageApp: false
       buildForSimulator: true
-      runNugetRestore: false
+      runNugetRestore: true
 
 
 # - script: |
