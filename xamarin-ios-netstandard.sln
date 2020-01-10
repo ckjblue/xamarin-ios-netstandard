@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlasDesigns.MyXINS.ios", "AtlasDesigns.MyXINS.ios\AtlasDesigns.MyXINS.ios.csproj", "{8614822C-5D53-46D1-B71B-DC9CC4F8061D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlasDesigns.MyXINS.ios.UITests", "AtlasDesigns.MyXINS.ios.UITests\AtlasDesigns.MyXINS.ios.UITests.csproj", "{2D5DFDFE-4C69-4125-8F49-128D2368143A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -21,13 +19,5 @@ Global
 		{8614822C-5D53-46D1-B71B-DC9CC4F8061D}.Debug|iPhone.Build.0 = Debug|iPhone
 		{8614822C-5D53-46D1-B71B-DC9CC4F8061D}.Release|iPhone.ActiveCfg = Release|iPhone
 		{8614822C-5D53-46D1-B71B-DC9CC4F8061D}.Release|iPhone.Build.0 = Release|iPhone
-		{2D5DFDFE-4C69-4125-8F49-128D2368143A}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{2D5DFDFE-4C69-4125-8F49-128D2368143A}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{2D5DFDFE-4C69-4125-8F49-128D2368143A}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{2D5DFDFE-4C69-4125-8F49-128D2368143A}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
-		{2D5DFDFE-4C69-4125-8F49-128D2368143A}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{2D5DFDFE-4C69-4125-8F49-128D2368143A}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{2D5DFDFE-4C69-4125-8F49-128D2368143A}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{2D5DFDFE-4C69-4125-8F49-128D2368143A}.Release|iPhone.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
