@@ -20,13 +20,13 @@ steps:
 - script: echo Setup for XamariniOS Build
   displayName: 'Run a one-line script'
 
-  # - task: XamariniOS@2
-  #   inputs:
-  #     solutionFile: '**/*ios.csproj'
-  #     configuration: 'Debug'
-  #     packageApp: false
-  #     buildForSimulator: true
-  #     runNugetRestore: false
+- task: XamariniOS@2
+  inputs:
+    solutionFile: '**/*ios.csproj'
+    configuration: 'Debug'
+    packageApp: false
+    buildForSimulator: true
+    runNugetRestore: true
 
 
 # - script: |
